@@ -1,6 +1,6 @@
 import { makeRequest } from './api.js';
 import { setDisabledState, toggleAdForm, toggleMapFilters } from './formadj.js';
-import { renderCard } from './data-generation.js';
+import { renderCard } from './card.js';
 import { filterData } from './filter.js';
 import { debounce } from './util.js';
 import { MAX_OFFERS } from './filter.js';
