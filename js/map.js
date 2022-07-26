@@ -1,5 +1,5 @@
 import { makeRequest } from './api.js';
-import { setDisabledState, toggleAdForm, toggleMapFilters } from './formadj.js';
+import { setDisabledState, toggleAdForm, toggleMapFilters } from './form-adj.js';
 import { renderCard } from './card.js';
 import { filterData } from './filter.js';
 import { debounce } from './util.js';
